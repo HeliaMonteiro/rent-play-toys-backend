@@ -35,9 +35,6 @@
     "category": {
       "type": "string"
     },
-    "age": {
-      "type": "integer"
-    },
     "status": {
       "type": "boolean",
       "default": true
