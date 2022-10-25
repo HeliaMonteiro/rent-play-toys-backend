@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rents",
+  "info": {
+    "singularName": "rent",
+    "pluralName": "rents",
+    "displayName": "rent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "delivery_address": {
+      "type": "string"
+    },
+    "toys": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::toy.toy",
+      "mappedBy": "rent"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "rents"
+    },
+    "rent_option": {
+      "type": "integer"
+    },
+    "purchase_date": {
+      "type": "date"
+    },
+    "purchase_return": {
+      "type": "date"
+    }
+  }
+}

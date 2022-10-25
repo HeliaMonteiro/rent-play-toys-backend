@@ -65,6 +65,15 @@
     },
     "address": {
       "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "rents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rent.rent",
+      "mappedBy": "user"
     }
   }
 }

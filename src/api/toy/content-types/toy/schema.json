@@ -44,6 +44,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "rent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::rent.rent",
+      "inversedBy": "toys"
     }
   }
 }
