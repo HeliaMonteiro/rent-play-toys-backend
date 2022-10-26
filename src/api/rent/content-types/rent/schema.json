@@ -15,11 +15,11 @@
     "delivery_address": {
       "type": "string"
     },
-    "toys": {
+    "toy": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::toy.toy",
-      "mappedBy": "rent"
+      "inversedBy": "rents"
     },
     "user": {
       "type": "relation",
