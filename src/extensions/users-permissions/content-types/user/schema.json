@@ -74,6 +74,12 @@
       "relation": "oneToMany",
       "target": "api::rent.rent",
       "mappedBy": "user"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
     }
   }
 }
