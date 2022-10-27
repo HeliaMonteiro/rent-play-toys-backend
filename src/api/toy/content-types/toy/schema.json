@@ -28,9 +28,6 @@
       "type": "boolean",
       "default": true
     },
-    "description": {
-      "type": "text"
-    },
     "rents": {
       "type": "relation",
       "relation": "oneToMany",
@@ -39,6 +36,9 @@
     },
     "image": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
