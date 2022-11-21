@@ -1,57 +1,49 @@
-# 🚀 Getting started with Strapi
+# Rent & Play Toys
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+This is my General Assembly final project, I've built a page to rent toys. 
+Rent and Play Toys is an idea inspired by my loved nephew Vinicius who is overseas because sometimes I would love to give him all the cool toys he deserves.
 
-### `develop`
+But sometimes it isn't possible because some toys are very expensive and I, his mom, and you for sure know that usually, kids lose their interest in one specific toy really fast and just move on to another toy. 
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+So the main idea of my page is to make some toys more accessible for those who want to make the little ones happy, playing with a cool toy even for a short period of time.
 
-```
-npm run develop
-# or
-yarn develop
-```
+Rent & Play Toy has a variety of toys that usually are more expensive, most offer more than one use option providing more fun.
 
-### `start`
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+ [Click here](https://rent-play-toys.surge.sh/) to see my project
 
-```
-npm run start
-# or
-yarn start
-```
+[![20221027-225030.jpg](https://i.postimg.cc/VkZS4Gh5/20221027-225030.jpg)](https://postimg.cc/dhdtVBwK)
 
-### `build`
+## :bookmark_tabs: About
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+The main idea of this page is to make some toys more accessible.
 
-```
-npm run build
-# or
-yarn build
-```
+Rent and Play Toys provides a lot of toy categories, such as educational, activities, and outside.
 
-## ⚙️ Deployment
+On the main page the user sees all toys available and unavailable, by clicking on the toy it will show toy details: product description, category, recommended age to play, and items included.
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+To rent a toy users have to log in or sign up, and after selecting any toy it will show days of rent options, after clicking on the rent button the toy becomes unavailable, and users can see their rent history and return a rented toy. 
+This is a full stack project, I'm using Strapi for back-end content management and React and Javascript for my front end.
 
-## 📚 Learn more
+## :nerd_face:  Cool tech  :dart:
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+ * Javascript
+ * React
+ * HTML 
+ * Strapi
+ * CSS
+## Bugs to fix  :hammer_and_wrench: :firecracker:
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+ * The user can rent a toy without selecting the days of rent option.
+ * Search input is not working. 
+ * Header and Footer links are not working. 
+ * Some elements aren't responsive.
 
-## ✨ Community
+## :mending_heart: Lessons learnt
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+ Organizing this page idea to define MVP was hard. 
+ Keep things simple and do them step-by-step. 
 
----
+## :star_struck: Future features
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+ Make search input and all links work, create a payment form, and make it totally responsive.
